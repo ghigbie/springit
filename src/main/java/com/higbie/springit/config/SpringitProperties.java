@@ -1,6 +1,9 @@
 package com.higbie.springit.config;
 
-public class SpringProperties {
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties("springit")
+public class SpringitProperties {
     private String welcomeMsg = "Yo default message!";
 
     public String getWelcomeMsg() {
