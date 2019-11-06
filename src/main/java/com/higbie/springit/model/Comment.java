@@ -4,4 +4,6 @@ public class Comment {
 
     private Long id;
     private String body;
+
+    public Comment(){}
 }

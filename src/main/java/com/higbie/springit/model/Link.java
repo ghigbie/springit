@@ -6,5 +6,5 @@ public class Link {
     private String title;
     private String url;
 
-
+    public Link() {}
 }
