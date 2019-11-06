@@ -1,7 +1,15 @@
 package com.higbie.springit.model;
 
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Vote {
 
+    @Id
+    @GeneratedValue
     private long id;
     private int vote;
 
