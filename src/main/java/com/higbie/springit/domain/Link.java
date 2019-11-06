@@ -1,4 +1,4 @@
-package com.higbie.springit.model;
+package com.higbie.springit.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
