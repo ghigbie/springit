@@ -10,6 +10,11 @@ public class HomeController {
     public String home(){
         return "Yo baby!";
     }
+
+    @GetMapping("/drones")
+    public String drones(){
+        return "Drones are here in droves!";
+    }
 }
 
 
