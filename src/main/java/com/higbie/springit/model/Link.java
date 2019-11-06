@@ -31,4 +31,13 @@ public class Link {
     public void setUrl(String url) {
         this.url = url;
     }
+
+    @Override
+    public String toString() {
+        return "Link{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", url='" + url + '\'' +
+                '}';
+    }
 }

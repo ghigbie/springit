@@ -25,4 +25,12 @@ public class Vote {
     public void setVote(int vote) {
         this.vote = vote;
     }
+
+    @Override
+    public String toString() {
+        return "Vote{" +
+                "id=" + id +
+                ", vote=" + vote +
+                '}';
+    }
 }
