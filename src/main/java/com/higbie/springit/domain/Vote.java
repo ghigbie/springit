@@ -17,7 +17,6 @@ public class Vote {
     @Id
     @GeneratedValue
     private long id;
-    @NonNull
     private int vote;
 
     //user
