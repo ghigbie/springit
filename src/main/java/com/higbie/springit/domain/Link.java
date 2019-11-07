@@ -7,6 +7,8 @@ import lombok.NonNull;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
@@ -20,5 +22,8 @@ public class Link {
     private String title;
     @NonNull
     private String url;
+
+    //comments
+    private List<Comment> comments = new ArrayList<>();
 
 }
